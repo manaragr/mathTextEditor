@@ -3,7 +3,7 @@
   "version": "0.1.5",
   "repository": {
     "type": "git",
-    "url": "https://https://github.com/manaragr/mathTextEditor"
+    "url": "https://github.com/manaragr/mathTextEditor"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.5",
