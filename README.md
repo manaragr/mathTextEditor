@@ -19,3 +19,6 @@ npm install math-text-editor
 
 yarn add math-text-editor
 ```
+
+### Live demo
+https://math-text-editor.vercel.app
