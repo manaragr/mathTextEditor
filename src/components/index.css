@@ -1,0 +1,36 @@
+.app {
+  height: 100vh;
+}
+.quill {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 100vh;
+}
+@media (max-width: 743px) {
+  .ql-toolbar.ql-snow {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
+
+.ql-container.ql-snow {
+  font-size: 32px;
+}
+
+.ML__virtual-keyboard-toggle {
+  padding: unset;
+  margin-right: 0 !important;
+}
+
+.ql-tooltip.ql-editing.ql-flip {
+  display: none !important;
+}
+
+.katex {
+  margin-left: 15px;
+}
+.hidden {
+  display: none;
+}

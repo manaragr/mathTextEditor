@@ -1,0 +1,141 @@
+#math {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  border-radius: 10px;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  padding: 20px;
+  min-width: 450px;
+  right: 30px;
+}
+
+@media only screen and (min-width: 992px) {
+  #math {
+    bottom: 50px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  #math {
+    bottom: 40px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  #math {
+    bottom: 30px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #math {
+    bottom: 20px;
+    right: 5px;
+  }
+}
+
+@media only screen and (max-width: 759px) {
+  #math.bottom-responsive {
+    bottom: 300px;
+  }
+}
+@media only screen and (min-width: 760px) {
+  #math.bottom-responsive {
+    bottom: 320px;
+  }
+}
+@media only screen and (min-width: 784px) {
+  #math.bottom-responsive {
+    bottom: 400px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  #math.bottom-responsive {
+    bottom: 280px;
+  }
+}
+@media only screen and (max-height: 230px) {
+  #math.bottom-responsive {
+    bottom: 280px;
+  }
+}
+
+#mathField,
+#latex {
+  width: 100%;
+}
+
+#latex {
+  font-size: 16px;
+}
+
+#latexInput::selection {
+  background: rgba(240, 198, 116, 0.99);
+  color: #333;
+  opacity: 1;
+}
+
+span > span.ML__container > div {
+  padding: unset !important;
+  margin-right: unset !important;
+}
+.buttons {
+  margin-left: auto;
+}
+.mathButton {
+  border: 1px solid #333;
+  border-radius: 10px;
+
+  height: 36px;
+  width: 64px;
+  cursor: pointer;
+  font-size: 18px;
+  box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.1), 0 2px 2px 0 rgba(0, 0, 0, 0.07),
+    0 3px 1px -2px rgba(0, 0, 0, 0.06);
+  margin-left: 10px;
+  padding: inherit;
+}
+.mathButton:hover {
+  transition: 0.5s;
+}
+.cancelButton {
+  background: #35434e;
+  color: #f0c674;
+}
+.cancelButton:hover {
+  background: rgba(240, 198, 116, 0.99);
+  color: #333;
+}
+
+.saveButton {
+  background: rgba(240, 198, 116, 0.99);
+  color: #333;
+}
+
+.saveButton:hover {
+  background: #35434e;
+  color: #f0c674;
+}
+math-field {
+  border: 1px solid #eee;
+  border-radius: 8px;
+  padding: 5px;
+  background: #fff;
+  font-size: 24px;
+}
+
+.output {
+  font-size: 36px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #333;
+  min-height: 1em;
+  padding: 5px;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  width: calc(100% - 10px);
+  font-family: 'IBM Plex mono', 'Source Code Pro', Menlo,
+    'Bitstream Vera Sans Mono', Monaco, Courier, 'Andale Mono', monospace;
+  color: #f0c674;
+  background: #35434e;
+}
